@@ -37,12 +37,15 @@ html {
   z-index: 99;
 }
 .nav,
-.navlinks {
+.navlinks,
+.nav-container {
   height: 50px;
   width: 100%;
   border: none;
 }
-
+.nav-container {
+  background: var(--secondary-color);
+ }
 .nav {
   padding: 3% 3%;
   justify-content: space-between;
@@ -172,6 +175,9 @@ html {
     height: 60px;
     border-bottom: 0.5px solid black;
   }
+  .nav-container {
+    height:0;
+   }
   .container {
     height: 10px;
   }
@@ -285,8 +291,4 @@ html {
   font-size: 16px;
 }
 }
-@media (max-width:1366px) {
-  .navlinks {
-    height: 80px;
-  }
-}
+

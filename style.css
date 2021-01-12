@@ -37,12 +37,15 @@ html {
   z-index: 99;
 }
 .nav,
-.navlinks {
+.navlinks,
+.nav-container {
   height: 50px;
   width: 100%;
   border: none;
 }
-
+.nav-container {
+  background: var(--secondary-color);
+ }
 .nav {
   padding: 3% 3%;
   justify-content: space-between;
@@ -50,6 +53,7 @@ html {
 }
 .navlinks {
   background: var(--secondary-color);
+  width:90%;
 }
 .navlinks > li > a {
   color: var(--primary-color);
@@ -173,6 +177,9 @@ html {
   .container {
     height: 10px;
   }
+  .nav-container {
+    height:0;
+   }
   .fas {
     font-size: 18px;
   }

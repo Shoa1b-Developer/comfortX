@@ -50,6 +50,7 @@ html {
 }
 .navlinks {
   background: var(--secondary-color);
+  padding: 5%;
 }
 .navlinks > li > a {
   color: var(--primary-color);
